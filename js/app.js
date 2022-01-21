@@ -3,16 +3,16 @@ const websites = [
     title: 'Cryptoverse',
     website: 'https://cryptoverse-frontend.vercel.app',
     repo_name: 'cryptoverse-frontend',
-    mainImg: '../images/crypto-1.png',
+    mainImg: '../assets/crypto-1.png',
     url: 'project',
     images: [
       {
         id: 2,
-        src: '../images/crypto-2.png',
+        src: '../assets/crypto-2.png',
       },
       {
         id: 3,
-        src: '../images/crypto-3.png',
+        src: '../assets/crypto-3.png',
       },
     ],
     description: [
@@ -37,16 +37,16 @@ const websites = [
     title: 'Next.js eccomerce store',
     repo_name: 'next-shop',
     website: 'https://next-shop-iota.vercel.app',
-    mainImg: '../images/next-1.png',
+    mainImg: '../assets/next-1.png',
     url: '/project',
     images: [
       {
         id: 2,
-        src: '../images/next-2.png',
+        src: '../assets/next-2.png',
       },
       {
         id: 3,
-        src: '../images/next-3.png',
+        src: '../assets/next-3.png',
       },
     ],
     description: [
@@ -71,16 +71,16 @@ const websites = [
     title: 'Unsplash clone',
     website: 'https://unsplashclone-one.vercel.app',
     repo_name: 'unsplashclone',
-    mainImg: '../images/unsplash-1.png',
+    mainImg: '../assets/unsplash-1.png',
     url: '/project',
     images: [
       {
         id: 2,
-        src: '../images/unsplash-2.png',
+        src: '../assets/unsplash-2.png',
       },
       {
         id: 3,
-        src: '../images/unsplash-3.png',
+        src: '../assets/unsplash-3.png',
       },
     ],
     description: [
@@ -104,16 +104,16 @@ const websites = [
   {
     title: 'North media landing page',
     website: 'https://media-phi.vercel.app/',
-    mainImg: '../images/north-1.png',
+    mainImg: '../assets/north-1.png',
     url: '/project',
     images: [
       {
         id: 2,
-        src: '../images/north-2.png',
+        src: '../assets/north-2.png',
       },
       {
         id: 3,
-        src: '../images/north-3.png',
+        src: '../assets/north-3.png',
       },
     ],
     description: [
@@ -138,16 +138,16 @@ const websites = [
     title: 'Crwn apperal',
     repo_name: 'crwn-apperal',
     website: 'https://crwn-apperal.herokuapp.com/',
-    mainImg: '../images/crwn-1.png',
+    mainImg: '../assets/crwn-1.png',
     url: '/project',
     images: [
       {
         id: 2,
-        src: '../images/crwn-2.png',
+        src: '../assets/crwn-2.png',
       },
       {
         id: 3,
-        src: '../images/crwn-3.png',
+        src: '../assets/crwn-3.png',
       },
     ],
     description: [
