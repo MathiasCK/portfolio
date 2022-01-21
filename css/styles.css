@@ -228,9 +228,10 @@ p.about__container-link {
   width: 600px;
   height: 500px;
   margin: 40px auto;
+  background-size: cover;
 }
 
-.project__image-one {
+/* .project__image-one {
   background: url(../images/img-one.jpeg) no-repeat 50% 50%;
   background-size: cover;
 }
@@ -256,7 +257,7 @@ p.about__container-link {
   left: -100px;
   background: url(../images/img-four.jpeg) no-repeat 50% 50%;
   background-size: cover;
-}
+} */
 
 .project-next-link {
   position: relative;
