@@ -60,3 +60,21 @@ nav a.prev {
     bottom: 3rem;
   }
 }
+
+.skills {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+
+.skills__skill {
+  padding: 1rem;
+  flex: 1;
+}
+
+p {
+  font-size: 1.5rem;
+  letter-spacing: 0.2cm;
+}
