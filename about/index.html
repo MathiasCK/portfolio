@@ -45,12 +45,12 @@
 
       <!-- about-section -->
       <div class="about__container" data-scroll-section>
-        <p class="about__container-data" data-scroll>
+        <p class="about__container-data data-1" data-scroll>
           Hi! My name is <span>Mathias Kolberg</span> and I'm a full-stack
           JavaScript developer, born in <span>Oslo,</span> Norway.
         </p>
 
-        <p class="about__container-data" data-scroll>
+        <p class="about__container-data data-2" data-scroll>
           I started out as a <br />
           hobby programmer at the age of 15 and have ever <br />
           since pursued my dream of one day working as a software developer
@@ -58,7 +58,7 @@
           full time.
         </p>
 
-        <p data-scroll>
+        <p data-scroll class="data-3">
           If you have any questions or would like to have a chat, don't hesitate
           to
           <span class="about__container-contact-link"
@@ -69,48 +69,8 @@
 
       <div class="cursor-follow"></div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <script>
-      // smooth scroll
-      const scroll = new LocomotiveScroll({
-        el: document.querySelector('#js-scroll'),
-        smooth: true,
-        smoothMobile: true,
-        inertia: 0.75,
-      });
-
-      // div following mouse
-      TweenMax.from('.cursor-follow', 2, {
-        delay: 1,
-        opacity: 0,
-      });
-
-      follower = document.querySelector('.cursor-follow');
-
-      posX = 0;
-      posY = 0;
-      mouseX = 0;
-      mouseY = 0;
-
-      TweenMax.to({}, 0.016, {
-        repeat: -1,
-        onRepeat: function () {
-          posX += (mouseX - posX) / 9;
-          posY += (mouseY - posY) / 9;
-
-          TweenMax.set(follower, {
-            css: {
-              left: posX - 40,
-              top: posY - 40,
-            },
-          });
-        },
-      });
-
-      document.addEventListener('mousemove', function (e) {
-        mouseX = e.pageX;
-        mouseY = e.pageY;
-      });
-    </script>
+    <script src="js/index.js"></script>
   </body>
 </html>
